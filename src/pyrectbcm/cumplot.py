@@ -150,8 +150,9 @@ def mcplot(start, end, path):
 
 
 if __name__ == "__main__":
-    path = "D:/Koen/Documents/UT/PhD/Repository/PyRectBCM/Output/"
-    opath = path + "Output_run"
+    path = "./Output/"
+    location = "CaseWS1"
+    opath = path + location + "Output_run"
     start = 0
     end = 10
     fig = mcplot(start, end, opath)
