@@ -25,4 +25,4 @@ sedimport = 1e6
 
 # General Parameters
 timestep = 1
-end = 1e1
+end = 1e3
